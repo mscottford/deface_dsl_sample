@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mscottford/deface
-  revision: d82626600e7061a906e00383e1d3286a4a51ab0a
+  revision: 63d9b94b859ae1dccdad73b6e25dcf06e6bda58e
   branch: dsl
   specs:
     deface (0.7.2)

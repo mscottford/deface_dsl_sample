@@ -1,0 +1,21 @@
+<h1>Listing robots</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @robots.each do |robot| %>
+  <tr>
+    <td><%= link_to 'Show', robot %></td>
+    <td><%= link_to 'Edit', edit_robot_path(robot) %></td>
+    <td><%= link_to 'Destroy', robot, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Robot', new_robot_path %>
