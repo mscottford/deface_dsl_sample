@@ -1,0 +1,3 @@
+virtual_path 'robots/index'
+insert_after 'h1'
+text '<h2>These robots are awesome.</h2>'
