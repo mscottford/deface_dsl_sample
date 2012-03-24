@@ -1,0 +1,2 @@
+<!-- insert_after 'h1' -->
+<h2>Make this robot awesome. <%= 'With erb' %></h2>
